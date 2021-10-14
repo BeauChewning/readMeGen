@@ -76,8 +76,8 @@ var READMEpg =
 ## ${response.contribution}
 ## ${response.test}
 ## ${license}
-## ${response.github}
-## ${response.email}`
+### ${response.github}
+### ${response.email}`
 
 
 
