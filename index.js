@@ -44,7 +44,7 @@ inquirer.prompt([
 },
 {
     type: "input",
-    name: "test",
+    name: "tests",
     message: "test instructions",
 },
 {
@@ -70,14 +70,20 @@ let license;
 }
 var READMEpg = 
 `# ${response.title}
-## ${response.description}
-## ${response.installation}
-## ${response.usage}
-## ${response.contribution}
-## ${response.test}
-## ${license}
-### ${response.github}
-### ${response.email}`
+## description:\n${response.description}
+## Table of Contents:
+* [Installation](#installation)
+* [Usage](#usage)
+* [Licensing](#licensing)
+* [Contribution](#contribution)
+* [Tests](#tests)
+## Installation:\n${response.installation}
+## Usage:\na${response.usage}
+## Contribution:\n${response.contribution}
+## tests:\n${response.tests}
+## License:\n${license}
+### Github username:\n${response.github}
+### if you need anything or have a question coontact me here:\n${response.email}`
 
 
 
